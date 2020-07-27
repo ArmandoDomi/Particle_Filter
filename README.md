@@ -1,5 +1,5 @@
 # Particle_Filter
-Particle filter for estimating x, y of a vehicle
+Particle filter for estimating x, y of a robot
 
 ##  Generic Particle Filter Algorithm
 1. **Randomly generate a bunch of particles.**<br>
