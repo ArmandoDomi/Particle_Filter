@@ -11,4 +11,4 @@ Update the weighting of the particles based on the measurement. Particles that c
 4. **Resample**<br>
 Discard highly improbable particle and replace them with copies of the more probable particles.
 5. **Compute Estimate**<br>
-Optionally, compute weighted mean and covariance of the set of particles to get a state estimate. 
+Compute weighted mean and covariance of the set of particles to get a state estimate. 
