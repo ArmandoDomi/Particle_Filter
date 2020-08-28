@@ -12,3 +12,19 @@ Update the weighting of the particles based on the measurement. Particles that c
 Discard highly improbable particle and replace them with copies of the more probable particles.
 5. **Compute Estimate**<br>
 Compute weighted mean and covariance of the set of particles to get a state estimate. 
+
+## Task 
+- The system of two states X and Y is described by
+following equations :
+x_k=0.3x_k+e^(-y_(k-1)^2 )+u_(1,k-1)   (1)
+y_k=0.3x_k+e^(-x_(k-1)^2 )+u_(2,k-1)  (2)
+
+- The system is observed by a radar with the measuring model being described by the following equation:
+d_k=√(x_k^2+y_k^2 )+e_(1,k)  (3)
+
+- e1 ~ N(0,1)
+- e2 ~ N(0,0.2)
+- u1 ~ N(0,0.05)
+- u2 ~ N(0.2)
+
+Do the best estimate for the state X,Y
