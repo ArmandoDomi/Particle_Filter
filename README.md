@@ -22,9 +22,6 @@ y_k=0.3x_k+e^(-x_(k-1)^2 )+u_(2,k-1)  (2)
 - The system is observed by a radar with the measuring model being described by the following equations:
 d_k=√(x_k^2+y_k^2 )+e_(1,k)  (3)
 Θ_κ=atan2(y_k,x_k )+e_(2,k)  (4)
-- e1 ~ N(0,1)
-- e2 ~ N(0,0.2)
-- u1 ~ N(0,0.05)
-- u2 ~ N(0.2)
+- e1 ~ N(0,1) , e2 ~ N(0,0.2) , u1 ~ N(0,0.05) , u2 ~ N(0.2)
 
 Do the best estimate for the state X,Y
