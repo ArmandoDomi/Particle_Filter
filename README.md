@@ -25,3 +25,7 @@ d_k=√(x_k^2+y_k^2 )+e_(1,k)  (3)
 - e1 ~ N(0,1) , e2 ~ N(0,0.2) , u1 ~ N(0,0.05) , u2 ~ N(0.2)
 
 Do the best estimate for the state X,Y
+
+
+## Result
+![Image of final state ](https://github.com/armando-domi/Particle_Filter/blob/master/Figure_2.png)
